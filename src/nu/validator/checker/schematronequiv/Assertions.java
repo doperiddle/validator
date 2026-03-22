@@ -3619,7 +3619,6 @@ public class Assertions extends Checker {
                         role = atts.getValue(i);
                     } else if ("aria-activedescendant" == attLocal
                             && !isEmptyAtt) {
-                        System.out.println("found aria-activedescendant 1");
                         activeDescendant = atts.getValue(i);
                     } else if ("aria-owns" == attLocal && !isEmptyAtt) {
                         owns = atts.getValue(i);
@@ -3674,18 +3673,8 @@ public class Assertions extends Checker {
 
         // aria-activedescendant accompanied by aria-owns
         if (activeDescendant != null && !"".equals(activeDescendant)) {
-            // String activeDescendantVal = atts.getValue("",
-            // "aria-activedescendant");
             if (owns != null && !"".equals(owns)) {
                 activeDescendantWithAriaOwns = true;
-                // String[] tokens = AttributeUtil.split(owns);
-                // for (int i = 0; i < tokens.length; i++) {
-                // String token = tokens[i];
-                // if (token.equals(activeDescendantVal)) {
-                // activeDescendantWithAriaOwns = true;
-                // break;
-                // }
-                // }
             }
         }
         // activedescendant

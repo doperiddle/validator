@@ -20,8 +20,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     && unzip ./vnu.linux.zip \
     && rm ./vnu.linux.zip* \
     && apt-get purge -y --auto-remove unzip
-# hadolint ignore=DL3006
-FROM debian:stable-slim
+FROM gcr.io/distroless/base-debian12
 COPY --from=builder /vnu-runtime-image /vnu-runtime-image
 ENV LANG C.UTF-8
 ENV JAVA_TOOL_OPTIONS ""
