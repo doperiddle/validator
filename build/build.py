@@ -162,6 +162,8 @@ dependencyPackages = [
     ("https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-api.jar", "289dcb376743ab24ecaeb194a0d287d9"),  # nopep8
     ("https://repo1.maven.org/maven2/javax/mail/mail/1.4.7/mail-1.4.7.jar", "77f53ff0c78ba43c4812ecc9f53e20f8"),  # nopep8
     ("https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar", "b80414033bf3397de334b95e892a2f44"),  # nopep8
+    ("https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar", "d98a9a02424dbf4f3e1ee5c4cfa49571"),  # nopep8
+    ("https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar", "6393363b47ddcbba82321110fa3d2d75"),  # nopep8
     ("https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar", "04a41f0a068986f0f73485cf507c0f40"),  # nopep8
     ("https://repo1.maven.org/maven2/net/sourceforge/jchardet/jchardet/1.0/jchardet-1.0.jar", "90c63f0e53e6f714dbc7641e066620e4"),  # nopep8
     ("https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar", "40d6b9075fbd28fa10292a45a0db9457"),  # nopep8
